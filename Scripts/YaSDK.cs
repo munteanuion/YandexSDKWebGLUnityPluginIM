@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -35,7 +36,7 @@ namespace YandexSDK
         public bool isInterstitialReady = false;
 
         public Platform currentPlatform;
-        
+
         public bool canReview = false;
         public int rewardedAdPlacementAsInt = 0;
         public string rewardedAdPlacement = string.Empty;
@@ -77,11 +78,11 @@ namespace YandexSDK
         {
             if (focus)
             {
-                CancelOnPauseApp();
+                StopPauseApp();
             }
             else
             {
-                SetOnPauseApp();
+                StartPauseApp();
             }
         }
 
@@ -135,8 +136,9 @@ namespace YandexSDK
             Authenticate();
         }
 
-        public void OnCanReview(string str){
-            canReview = (str == "yes")? true : false;
+        public void OnCanReview(string str)
+        {
+            canReview = (str == "yes") ? true : false;
         }
 
         public void OnPlayerAuthenticated()
@@ -292,13 +294,13 @@ namespace YandexSDK
             }
             ToggleObjectActiv(onRewardedAdErrorObj);
         }
-        
+
         public void OpenRateUsWindow()
         {
             OpenRateUs();
             canReview = false;
         }
-        
+
         //private IEnumerator<WaitForSeconds> CountTillNextInterstitial()
         //{
         //    while (currentSecondsTillNextInterstitial > 0)
