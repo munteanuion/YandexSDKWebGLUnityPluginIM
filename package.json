@@ -1,20 +1,20 @@
 {
-  "name": "com.mrpart.yandexsdkplugin",
-  "version": "1.0.4",
+  "name": "com.im.yandexsdkplugin65",
+  "version": "1.0.5",
   "displayName": "YandexWebGLSDKPlugin",
   "description": "Yandex SDk plugin for WebGL",
   "unity": "2021.1",
   "unityRelease": "21f1",
-  "documentationUrl": "https://github.com/MrPart256/YandexSDKWebGLUnityPlugin",
-  "changelogUrl": "https://github.com/MrPart256/YandexSDKWebGLUnityPlugin",
-  "licensesUrl": "https://github.com/MrPart256/YandexSDKWebGLUnityPlugin",
+  "documentationUrl": "https://github.com/munteanuion/YandexSDKWebGLUnityPluginIM",
+  "changelogUrl": "https://github.com/munteanuion/YandexSDKWebGLUnityPluginIM",
+  "licensesUrl": "https://github.com/munteanuion/YandexSDKWebGLUnityPluginIM",
   "dependencies": {
   },
   "keywords": [
   ],
   "author": {
-    "name": "MrPart",
-    "email": "nea@gmail.com",
-    "url": "https://github.com/MrPart256/YandexSDKWebGLUnityPlugin"
+    "name": "IM",
+    "email": "munteanu.ion.654@gmail.com",
+    "url": "https://github.com/munteanuion/YandexSDKWebGLUnityPluginIM"
   }
 }
