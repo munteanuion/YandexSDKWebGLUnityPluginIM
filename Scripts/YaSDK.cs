@@ -263,7 +263,6 @@ namespace YandexSDK
                 {
                     onRewardedAdReward?.Invoke(rewardedAdPlacement);
                 }
-                StopPauseApp();
 
                 Text text = onRewardedAdRewardObj.GetComponent<Text>();
                 if (text == null)
