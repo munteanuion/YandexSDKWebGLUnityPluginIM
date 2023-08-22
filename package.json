@@ -1,6 +1,6 @@
 {
-  "name": "com.mrpart.yandexsdkplugin",
-  "version": "1.0.5",
+  "name": "com.im.yandexsdkplugin",
+  "version": "1.0.6",
   "displayName": "YandexWebGLSDKPlugin",
   "description": "Yandex SDk plugin for WebGL",
   "unity": "2021.1",
@@ -10,6 +10,13 @@
   "licensesUrl": "https://github.com/munteanuion/YandexSDKWebGLUnityPluginIM",
   "dependencies": {
   },
+  "samples"[
+    {
+      "displayName": "Prefabs",
+      "description": "Prefabs",
+      "path": "Examples~/Prefabs"
+    }
+  ],
   "keywords": [
   ],
   "author": {
